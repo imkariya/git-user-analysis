@@ -1,0 +1,172 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Git Uesr Analysis",
+        "description": "APIs to fetch details of user and their repositories from GIT",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "127.0.0.1:3003/",
+    "basePath": "api/v1/",
+    "tags": [
+        {
+            "name": "User",
+            "description": "API to fetch user detail from git"
+        },
+        {
+            "name": "Repos",
+            "description": "API to fetch repos by user handle from git"
+        }
+    ],
+    "paths": {
+        "/user-detail/{user}": {
+            "parameters": [
+                {
+                    "name": "user",
+                    "in": "path",
+                    "required": true,
+                    "description": "username of user for whom we want fo fetch git details",
+                    "type": "string"
+                }
+            ],
+            "get": {
+                "tags": ["User"],
+                "summary": "Get user in system",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    },
+                    "422": {
+                        "description": "Unprocessable Entity",
+                        "schema": {
+                            "$ref": "#/definitions/Error-422"
+                        }
+                    }
+                }
+            }
+        },
+        "/repo-list/{user}": {
+            "parameters": [
+                {
+                    "name": "user",
+                    "in": "path",
+                    "required": true,
+                    "description": "handle for which we want to fetch repos from git",
+                    "type": "string"
+                }
+            ],
+            "get": {
+                "tags": ["Repos"],
+                "summary": "Get repos from the git by for specific user",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/Repos"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    },
+                    "422": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/Error-422"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "User": {
+            "properties": {
+                "_id": {
+                    "type": "integer",
+                    "uniqueItems": true
+                },
+                "name": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "follower": {
+                    "type": "integer"
+                },
+                "following": {
+                    "type": "integer"
+                },
+                "repo_count": {
+                    "type": "integer"
+                },
+                "profile_url": {
+                    "type": "string"
+                },
+                "member_since": {
+                    "type": "string"
+                }
+            }
+        },
+        "Repo": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "owner_name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "repo_url": {
+                    "type": "integer"
+                },
+                "stars": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Repos": {
+            "properties": {
+                "repos": {
+                    "type": "array",
+                    "$ref": "#/definitions/Repo"
+                }
+            }
+        },
+        "Error": {
+            "properties": {
+                "message": {
+                    "type": "string"
+                }
+            }
+        },
+        "Error-422": {
+            "properties": {
+                "errors": {
+                    "type": "array",
+                    "$ref": "#/definitions/Error"
+                }
+            }
+        }
+    },
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"]
+}

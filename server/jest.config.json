@@ -1,0 +1,6 @@
+{
+    "verbose": true,
+    "testEnvironment": "node",
+    "testRegex": "((\\.|/*.)(spec))\\.js?$",
+    "testTimeout": 15000
+}
