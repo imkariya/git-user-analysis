@@ -1,0 +1,11 @@
+.image-link {
+  border: 1px solid #f5f5f5;
+  box-shadow: 0px 0px 5px #e1e1e1;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.user-detail-card {
+  width: 75%;
+  margin: 0 auto;
+}

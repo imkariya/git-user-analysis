@@ -1,0 +1,25 @@
+a {
+  text-decoration: none !important;
+}
+
+.navbar-box {
+  width: 100%;
+  display: flex;
+  background: #fff3f3;
+}
+
+.navbar-box li {
+  margin-left: 20px;
+}
+.navbar-box .active {
+  background: #cdcdcd;
+  border-radius: 4px;
+}
+
+.navbar-box .active a {
+  color: #3f51b5;
+}
+
+.navbar-box a {
+  color: #000;
+}
