@@ -1,0 +1,14 @@
+{
+  "name": "git-user-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "(cd client && npm test) & (cd server && npm test)",
+    "install": "cd client && npm i && cd .. && cd server && npm i && cd ..",
+    "start": "(cd client && npm start) & (cd server && npm start)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
