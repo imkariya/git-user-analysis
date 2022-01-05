@@ -1,0 +1,18 @@
+version: "3.3"
+
+services:
+  server:
+    env_file: "./server/.env"
+    build:
+      context: ./server
+      dockerfile: ./Dockerfile
+    image: "ankbih/server-image"
+    ports:
+      - "3003:3003"
+  client:
+    build:
+      context: ./client
+      dockerfile: ./Dockerfile
+    image: "ankbih/client-image"
+    ports:
+      - "3000:3000"

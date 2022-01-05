@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "120ce066-ff0e-40b5-a3b9-acacfedacad8",
+		"name": "Git User Analysis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get User Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localBaseUrl}}user-detail/node",
+					"host": [
+						"{{localBaseUrl}}user-detail"
+					],
+					"path": [
+						"node"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get User Details",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}user-detail/node",
+							"host": [
+								"{{localBaseUrl}}user-detail"
+							],
+							"path": [
+								"node"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "333"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14d-37FuVzYSdYYzW39zrJVUGokBvtY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Jan 2022 10:11:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"user\": {\n        \"name\": \"node\",\n        \"image\": \"https://avatars.githubusercontent.com/u/227278?v=4\",\n        \"follower\": 164,\n        \"following\": 334,\n        \"repo_count\": 61,\n        \"member_since\": \"2010-03-21T12:25:23.000Z\",\n        \"profile_url\": \"https://github.com/node\",\n        \"_id\": \"61d6c04677f4d8711178dda5\",\n        \"createdAt\": \"2022-01-06T10:11:18.433Z\",\n        \"updatedAt\": \"2022-01-06T10:11:18.433Z\",\n        \"__v\": 0\n    }\n}"
+				},
+				{
+					"name": "Get User Details",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}user-detail/node12323",
+							"host": [
+								"{{localBaseUrl}}user-detail"
+							],
+							"path": [
+								"node12323"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "25"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"19-FkPEY9wpMIN361xso7ugHGed8Qg\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Jan 2022 10:12:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Bad Request\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get User Repos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localBaseUrl}}repo-list/node",
+					"host": [
+						"{{localBaseUrl}}repo-list"
+					],
+					"path": [
+						"node"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get User Repos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}repo-list/node",
+							"host": [
+								"{{localBaseUrl}}repo-list"
+							],
+							"path": [
+								"node"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2414"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"96e-WUV/m4VMu803xn+22zioZkod1wE\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Jan 2022 10:11:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"OK\",\n    \"repos\": [\n        {\n            \"name\": \"awesome-dataviz\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \":chart_with_upwards_trend:  A curated list of awesome data visualization libraries and resources.\",\n            \"repo_url\": \"https://github.com/node/awesome-dataviz\"\n        },\n        {\n            \"name\": \"awesome-devops\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \"A curated list of resources for Devops\",\n            \"repo_url\": \"https://github.com/node/awesome-devops\"\n        },\n        {\n            \"name\": \"awesome-elasticsearch\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \"A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!\",\n            \"repo_url\": \"https://github.com/node/awesome-elasticsearch\"\n        },\n        {\n            \"name\": \"awesome-evangelist\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \"Awesome for Top Tech Evangelist ( TTE )\",\n            \"repo_url\": \"https://github.com/node/awesome-evangelist\"\n        },\n        {\n            \"name\": \"awesome-java-cn\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \"Java资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。\",\n            \"repo_url\": \"https://github.com/node/awesome-java-cn\"\n        },\n        {\n            \"name\": \"awesome-python\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \"A curated list of awesome Python frameworks, libraries and software\",\n            \"repo_url\": \"https://github.com/node/awesome-python\"\n        },\n        {\n            \"name\": \"axel\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \"Axel tries to accelerate HTTP/FTP downloading process by using multiple connections for one file. It can use multiple mirrors for a download. Axel has no dependencies and is lightweight, so it might be useful as a wget clone on byte-critical systems.\",\n            \"repo_url\": \"https://github.com/node/axel\"\n        },\n        {\n            \"name\": \"bigdesk\",\n            \"owner_name\": \"node\",\n            \"stars\": 0,\n            \"description\": \"Live charts and statistics for Elasticsearch cluster.\",\n            \"repo_url\": \"https://github.com/node/bigdesk\"\n        },\n        {\n            \"name\": \"circos\",\n            \"owner_name\": \"node\",\n            \"stars\": 6,\n            \"description\": \" Mirror of cricos.  \\\"Circos is a software package for visualizing data and information. It visualizes data in a circular layout — this makes Circos ideal for exploring relationships between objects or positions. \\\"\",\n            \"repo_url\": \"https://github.com/node/circos\"\n        },\n        {\n            \"name\": \"circos-cn\",\n            \"owner_name\": \"node\",\n            \"stars\": 2,\n            \"description\": \"Circos  Tutorial Chinese Version       Circos教程中文版 By Circos中文社区\",\n            \"repo_url\": \"https://github.com/node/circos-cn\"\n        }\n    ],\n    \"pageNumber\": 1,\n    \"perPage\": 10,\n    \"totalPages\": 7\n}"
+				},
+				{
+					"name": "Get User Repos",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localBaseUrl}}repo-list/node1232",
+							"host": [
+								"{{localBaseUrl}}repo-list"
+							],
+							"path": [
+								"node1232"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "25"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"19-FkPEY9wpMIN361xso7ugHGed8Qg\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Jan 2022 10:12:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Bad Request\"\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "localBaseUrl",
+			"value": "http://127.0.0.1:3003/api/v1/"
+		}
+	]
+}
