@@ -1,0 +1,869 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Take GitRepo Component snapshot Git Repo List 1`] = `
+<div
+  data-testid="repo-wrapper-test-id"
+>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-6 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-7"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              awesome-dataviz
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-8 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            :chart_with_upwards_trend:  A curated list of awesome data visualization libraries and resources.
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/awesome-dataviz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-9 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-10"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              awesome-devops
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-11 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            A curated list of resources for Devops
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/awesome-devops"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-12 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-13"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              awesome-elasticsearch
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-14 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            A curated list of the most important and useful resources about elasticsearch: articles, videos, blogs, tips and tricks, use cases. All about Elasticsearch!
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/awesome-elasticsearch"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-15 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-16"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              awesome-evangelist
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-17 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            Awesome for Top Tech Evangelist ( TTE )
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/awesome-evangelist"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-18 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-19"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              awesome-java-cn
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-20 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            Java资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/awesome-java-cn"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-21 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-22"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              awesome-python
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-23 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            A curated list of awesome Python frameworks, libraries and software
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/awesome-python"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-24 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-25"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              axel
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-26 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            Axel tries to accelerate HTTP/FTP downloading process by using multiple connections for one file. It can use multiple mirrors for a download. Axel has no dependencies and is lightweight, so it might be useful as a wget clone on byte-critical systems.
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/axel"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-27 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-28"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              bigdesk
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              0
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-29 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            Live charts and statistics for Elasticsearch cluster.
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/bigdesk"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-30 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-31"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              circos
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              6
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-32 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+             Mirror of cricos.  "Circos is a software package for visualizing data and information. It visualizes data in a circular layout — this makes Circos ideal for exploring relationships between objects or positions. "
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/circos"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+    >
+      <div
+        class="MuiPaper-root WithStyles(ForwardRef(Paper))-root-5 WithStyles(ForwardRef(Paper))-root-33 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-34"
+        >
+          <div>
+            <span
+              class="card-heading"
+            >
+              Name:
+            </span>
+              
+            <span
+              class="reponame "
+            >
+              circos-cn
+            </span>
+          </div>
+          <div>
+            <span
+              class="text-dark"
+            >
+              2
+            </span>
+          </div>
+        </div>
+        <div
+          class="repo_desc"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-35 card-heading"
+          >
+            Description:  
+          </div>
+          <span
+            class="description"
+          >
+            Circos  Tutorial Chinese Version       Circos教程中文版 By Circos中文社区
+          </span>
+        </div>
+        <div>
+          <div
+            class="reponame"
+          >
+            <span
+              class="card-heading"
+            >
+              Owner Name:  
+            </span>
+            <span>
+              node
+            </span>
+          </div>
+          <div
+            class="reponame"
+          >
+            <a
+              href="https://github.com/node/circos-cn"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Visit Repo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="makeStyles-root-36"
+  >
+    <nav
+      aria-label="pagination navigation"
+      class="MuiPagination-root"
+    >
+      <ul
+        class="MuiPagination-ul"
+      >
+        <li>
+          <button
+            aria-label="Go to previous page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-disabled Mui-disabled"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="page 1"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page Mui-selected"
+            tabindex="0"
+            type="button"
+          >
+            1
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 2"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            2
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 3"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            3
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 4"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            4
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 5"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            5
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 6"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            6
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to page 7"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            7
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiPaginationItem-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

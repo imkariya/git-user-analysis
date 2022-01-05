@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Take GitUser Component snapshot User Detail 1`] = `
+<div
+  class="MuiPaper-root MuiCard-root user-detail-card MuiPaper-outlined MuiPaper-rounded"
+  data-testid="user-profile-test-id"
+>
+  <div
+    class="MuiBox-root MuiBox-root-6"
+  >
+    <a
+      class="image-link"
+      href="https://github.com/node"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="node"
+        class="avatar"
+        height="50px"
+        src="https://avatars.githubusercontent.com/u/227278?v=4"
+        width="50px"
+      />
+    </a>
+    <div
+      class="MuiCardContent-root mb-4 mt-3"
+    >
+      node
+      <div
+        class="MuiBox-root MuiBox-root-7 date"
+      >
+        21/3/2010
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiCardContent-root border-top p-2"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-8"
+    >
+      <div>
+        <span>
+          Follower: 
+          164
+        </span>
+      </div>
+      <div>
+        <span>
+          Following: 
+          334
+        </span>
+      </div>
+      <div>
+        <span>
+          Total Repo: 
+          61
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
