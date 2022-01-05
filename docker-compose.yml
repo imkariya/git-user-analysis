@@ -6,13 +6,13 @@ services:
     build:
       context: ./server
       dockerfile: ./Dockerfile
-    image: "ankbih/server-image"
+    image: "dq/server-image"
     ports:
       - "3003:3003"
   client:
     build:
       context: ./client
       dockerfile: ./Dockerfile
-    image: "ankbih/client-image"
+    image: "dq/client-image"
     ports:
       - "3000:3000"

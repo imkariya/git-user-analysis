@@ -16,37 +16,21 @@ A Project to fetch details of any git user and to fetch the list of repos of git
 
 ## Project dependencies
 
-## For Server
-
-| Package                | Version |
-| ---------------------- | ------- |
-| node                   | 17.3.0  |
-| express                | 4.17.2  |
-| node-fetch             | 2.6.6   |
-| cors                   | 2.8.5   |
-| eslint-config-prettier | 8.3.0   |
-| express-validator      | 6.14.0  |
-| mongoose               | 6.1.5   |
-| swagger-ui-express     | 4.3.0   |
-| jest                   | 27.4.7  |
-| supertest              | 6.1.6   |
-
-## For Client
-
-| Package                   | Version        |
-| ------------------------- | -------------- |
-| node                      | 17.3.0         |
-| react                     | 17.0.2         |
-| @material-ui/core         | 4.12.3         |
-| @material-ui/icons        | 4.11.2         |
-| @material-ui/lab          | 4.0.0-alpha.60 |
-| react-hook-form           | 7.22.5         |
-| react-redux               | 7.2.6          |
-| @reduxjs/toolkit          | 1.7.1          |
-| @testing-library/jest-dom | 5.16.1         |
-| @testing-library/react    | 12.1.2         |
-| msw                       | 0.36.3         |
-| react-router-dom          | 6.2.1          |
+| Server                 |         |                           | client         |
+| ---------------------- | ------- | ------------------------- | -------------- |
+| Package                | Version | Package                   | Version        |
+| node                   | 17.3.0  | node                      | 17.3.0         |
+| express                | 4.17.2  | react                     | 17.0.2         |
+| node-fetch             | 2.6.6   | @material-ui/core         | 4.12.3         |
+| cors                   | 2.8.5   | @material-ui/icons        | 4.11.2         |
+| eslint-config-prettier | 8.3.0   | @material-ui/lab          | 4.0.0-alpha.60 |
+| express-validator      | 6.14.0  | react-hook-form           | 7.22.5         |
+| mongoose               | 6.1.5   | react-redux               | 7.2.6          |
+| swagger-ui-express     | 4.3.0   | @reduxjs/toolkit          | 1.7.1          |
+| jest                   | 27.4.7  | @testing-library/jest-dom | 5.16.1         |
+| supertest              | 6.1.6   | @testing-library/react    | 12.1.2         |
+|                        |         | msw                       | 0.36.3         |
+|                        |         | react-router-dom          | 6.2.1          |
 
 ## Project Setup
 
